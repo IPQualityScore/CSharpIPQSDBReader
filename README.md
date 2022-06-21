@@ -7,12 +7,12 @@
         The IPQS C# reader brings a new standard of performance and compression to our IP reputation and geo location services. Setting up and using the reader can be achieved in minutes.
     </p>
     <p>
-      You can find the full <a href="https://www.ipqualityscore.com/documentation/ip-reputation-database/CSharp" target="_blank">C# IPQualityScore DB Reader Documentation here</a> or view a description of what our <a href="https://www.ipqualityscore.com/proxy-detection-database" target="_blank">proxy detection database does here</a>.
+      You can find the full <a href="https://www.ipqualityscore.com/documentation/ip-reputation-database/csharp" target="_blank">C# IPQualityScore DB Reader Documentation here</a> or view a description of what our <a href="https://www.ipqualityscore.com/proxy-detection-database" target="_blank">proxy detection database does here</a>.
   </p>
     <h6 class="text-bold headerHR">Installation</h6>
   <div class="spacing-10"></div>
     <p>
-        Installation can be achieved by adding our Dynamic Link Library (DLL) to your Project's References. For more information on how to add our Dynamic Link Library (DLL) to your project, you can <a href="https://www.ipqualityscore.com/documentation/ip-reputation-database/CSharp" target="_blank">view our install documentation here</a>.
+        Installation can be achieved by adding our Dynamic Link Library (DLL) to your Project's References. For more information on how to add our Dynamic Link Library (DLL) to your project, you can <a href="https://www.ipqualityscore.com/documentation/ip-reputation-database/csharp" target="_blank">view our install documentation here</a>.
     </p>
     <h6 class="text-bold headerHR">Usage</h6>
   <div class="spacing-10"></div>
