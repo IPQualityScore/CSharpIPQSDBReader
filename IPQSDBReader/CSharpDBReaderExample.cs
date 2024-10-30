@@ -148,6 +148,8 @@ namespace IPQSDBReader
                 Console.WriteLine(ip + " has a geographic location of approximately: " + Record.getLatitude() + ", " + Record.getLongitude());
                 Console.WriteLine(ip + " is a " + Record.getConnectionType() + " connection. ");
                 Console.WriteLine(ip + " has a " + Record.getAbuseVelocity() + " abuse velocity.");
+                Console.WriteLine(ip + " has a zipcode of " + Record.getZipcode());
+                Console.WriteLine(ip + " has a hostname of " + Record.getHostname());
                 Console.WriteLine(ip + " has a fraud score of " + Record.getFraudScore().forStrictness(0) + " for strictness level zero.");
                 Console.WriteLine(ip + " has a fraud score of " + Record.getFraudScore().forStrictness(1) + " for strictness level one.");
             }

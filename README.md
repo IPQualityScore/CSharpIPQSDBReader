@@ -289,6 +289,24 @@ catch (Exception e)
                             </p>
                         </td>
                     </tr>
+                            <tr>
+            <td>record.getZipcode()</td>
+            <td>string</td>
+            <td>
+                            <p>
+                                Zipcode of IP address if available or empty string if unknown.
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+            <td>record.getHostname()</td>
+            <td>string</td>
+            <td>
+                            <p>
+                                Hostname of IP address if available or empty string if unknown.
+                            </p>
+                        </td>
+                    </tr>
                     <tr>
             <td>record.getLatitude()</td>
             <td>float32</td>

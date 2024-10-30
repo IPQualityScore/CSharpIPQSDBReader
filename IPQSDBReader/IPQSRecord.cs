@@ -100,6 +100,12 @@ namespace IPQSDBReader
                     case "Timezone":
                         Timezone = c.RawValue;
                         break;
+                    case "Hostname":
+                        Hostname = c.RawValue;
+                        break;
+                    case "Zipcode":
+                        Zipcode = c.RawValue;
+                        break;
                 }
 
                 Columns.Add(c);
@@ -219,6 +225,8 @@ namespace IPQSDBReader
         public string ISP;
         public string Organization;
         public string Timezone;
+        public string Hostname;
+        public string Zipcode;
         public int ASN;
         public float Latitude;
         public float Longitude;
@@ -247,6 +255,8 @@ namespace IPQSDBReader
         public string getISP() { return ISP; }
         public string getOrganization() { return Organization; }
         public string getTimezone() { return Timezone; }
+        public string getZipcode() { return Zipcode; }
+        public string getHostname() { return Hostname; }
         public int getASN() { return ASN; }
         public float getLatitude() { return Latitude; }
         public float getLongitude() { return Longitude; }
